@@ -1,0 +1,12 @@
+{
+    "require-dev": {
+        "behat/behat": "^3.4",
+        "phpunit/phpunit": "dev-master",
+        "mockery/mockery": "dev-master"
+    },
+    "autoload": {
+      "psr-4": {
+        "Cronlog\\": "src/"
+      }
+    }
+}
