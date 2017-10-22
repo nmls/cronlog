@@ -1,0 +1,9 @@
+db:
+  image: mysql:5.7
+  environment:
+    - MYSQL_ROOT_PASSWORD=dorootpasswd
+    - MYSQL_USER=cronlog_user
+    - MYSQL_PASSWORD=cronlog_passwd
+    - MYSQL_DATABASE=cronlog
+  ports:
+    - "3306:3306"
